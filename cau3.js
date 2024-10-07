@@ -34,7 +34,7 @@ class Book {
 	}
 
 	addBook(amount) {
-		if (amount < 0) return false;
+		if (amount <= 0) return false;
 		this.amount += amount;
 		this.status = true;
 	}
