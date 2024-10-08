@@ -10,6 +10,15 @@
 			rel="stylesheet"
 			href="style.css"
 		/>
+		<link
+			rel="shortcut icon"
+			href="favicon.ico"
+			type="image/x-icon"
+		/>
+		<link
+			rel="manifest"
+			href="manifest.json"
+		/>
 		<title>Minh Trí C0824G1 - Module 1</title>
 	</head>
 	<body>
@@ -38,5 +47,10 @@
 		<!-- <script src="cau2.js"></script> -->
 		<script src="cau3.js"></script>
 		<script src="cau3-function.js"></script>
+		<script src="">
+			if ("serviceWorker" in navigator) {
+				navigator.serviceWorker.register("/service-worker.js");
+			}
+		</script>
 	</body>
 </html>

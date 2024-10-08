@@ -24,4 +24,4 @@ if (n <= 50 && n > 0) {
 	}
 }
 
-console.log(sum / 2);
+console.log(sum / n);

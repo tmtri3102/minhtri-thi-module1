@@ -21,5 +21,5 @@ function getSum(n) {
 	return sum;
 }
 
-// console.log(isFriendlyPair(220, 284)); // true
+console.log(isFriendlyPair(220, 284)); // true
 // console.log(isFriendlyPair(123, 456)); // false
